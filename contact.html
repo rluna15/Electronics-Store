@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="contact.css">
+	<title>Timely Tech | Contact</title>
+</head>
+
+<body>
+	<header class="h-img-contact">
+		<ul><a class="cart" href="cart.html"></a></ul>
+		<div class="headerContainer">
+			<h1>
+				Contact
+			</h1>
+			<p>
+				Suggest new content or inform us of any issues you come across
+			</p>
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li><a class="active" href="home.html">Home</a></li>
+ 			<li><a class="active" href="products.html">Products</a></li>
+			<li><a class="active" href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<main>
+		<div class="container">
+			<h2>Support Submission</h2>
+			<p>
+			Please enter your contact info and the issue you are experiencing so we can resolve your issue.
+			</p>
+			<div class="contactForm">
+				<form action="http://webdevbasics.net/scripts/demo.php" novalidate="novalidate">
+					<p id="errorMsg"></p>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" placeholder="John Doe">
+					<label for="email">E-mail:</label>
+					<input type="text" id="email" name="name" placeholder="example@example.com">
+					<!--<label for="link">Link:</label>
+					<input type="text" name="link" id="link" placeholder="www.link.com">
+					<label for="comments">Comments:</label>-->
+					<textarea name="comments" id="comments" rows="10" placeholder="Comments Here..."></textarea>
+					<input type="submit" value="Submit" class="button" >
+				</form>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="copy">
+			copyright &copy; Timely Tech
+		</div>
+	</footer>
+	<script src="contactForm.js"></script>
+</body>
+
+</html>

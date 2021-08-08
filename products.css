@@ -1,0 +1,632 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*?Heading*/
+
+header {
+  min-height: 400px;
+  line-height: 2em;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.headerContainer {
+  width: 90%;
+  margin: auto;
+  line-height: 1.5em;
+  height: 400px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.headerContainer h1 {
+  text-align: center;
+  margin: 0;
+  padding-top: 150px;
+  text-transform: capitalize;
+  color: white;
+  -webkit-text-stroke: 3px black;
+  font-size: 90px;
+  font-weight: 470;
+}
+
+.headerContainer p {
+  text-align: center;
+  line-height: 1.2em;
+  color: white;
+  -webkit-text-stroke: 1.8px black;
+  font-size: 45px;
+}
+.h-img {
+  background-image: url(images/products\ head.png);
+  background-position: center center;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.p-h {
+  text-align: center;
+  line-height: 1.2em;
+  color: white;
+  -webkit-text-stroke: 2px black;
+  padding-top: 10px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/*Cart html divs */
+.headerContainer-cart h1 {
+  text-align: center;
+  margin: 0;
+  padding-top: 150px;
+  text-transform: capitalize;
+  color: white;
+  -webkit-text-stroke: 3px black;
+  font-size: 100px;
+  font-weight: 30;
+  padding-top: 2em;
+}
+.headerContainer-cart {
+  line-height: 1.5em;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  -webkit-text-stroke: 2.5px black;
+  font-weight: 600;
+  font-size: 60px;
+  width: 90%;
+  margin: auto;
+  height: 400px;
+}
+
+.headerContainer-cart p {
+  text-align: center;
+  line-height: 1.2em;
+  color: white;
+  -webkit-text-stroke: 1.6px black;
+  font-size: 40px;
+
+}
+
+.h-img-cart {
+  background-image: url(images/carytImage.png);
+  background-position: center center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  
+}
+
+/* Header Cart Link */ 
+
+.cart {
+  background-image: url(images/cart1.png);
+  background-repeat:no-repeat ;
+  height: 75px;
+  width: 80px;
+  display: block;
+  float: right;
+  margin-right: 1em;
+  margin-top: 1em;
+  border: 1.5px solid black;
+  background-color: skyblue;
+}
+
+.cart:hover {
+  background-color: steelblue ;
+  height: 78px;
+  widows: 83px;
+}
+
+/*?Nav Bar*/
+nav {
+  background-color: rgb(135, 206, 235);
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 15px;
+  margin: auto;
+  text-align: center;
+  height:auto;
+  width: auto;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 15px 15px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 6px;
+  height: auto;
+  width: auto;
+  font-weight: 450;
+}
+
+nav a:hover {
+  background-color: steelblue;
+}
+
+.active {
+  color: white;
+}
+
+main {
+  padding-bottom: 100px;
+}
+
+
+/*
+Quick Links to sections*/
+
+th {
+  font-size: 18px;
+  font-style: italic;
+  padding-top: 1em;
+  padding-left: 4.5em;
+  padding-right: 4.5em;
+  padding-bottom: 2em;
+}
+th:hover {
+  color: steelblue;
+  font-style: unset;
+  font-style: bold;
+}
+/*?Grid Element Layout*/
+.grid {
+  display: grid;
+  margin-left: 22%;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-gap: 2em;
+}
+
+.title {
+  grid-column: 1 / 5;
+  text-align: center;
+  padding: 50px 0px 20px 0px;
+  border-bottom: 5px solid darkslategray;
+  font-size: 3em;
+  overflow: visible;
+}
+
+/*?Thumbnail Text Styles*/
+.desBlock {
+  display: grid;
+  grid-template-rows: 175px 1fr 65px 1fr;
+}
+
+.productName {
+  padding: 0px 10px;
+}
+
+.productDes {
+  padding: 0px 10px;
+  margin: 0em;
+  padding-bottom: 0;
+}
+
+.moreInfo {
+  text-align: center;
+  color: white;
+}
+
+.moreInfo:hover {
+  color: darkslategray;
+}
+
+.p {
+  /*
+  !image size is 250 x 175
+  */
+  height: 300px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 1px 4px 3px skyblue;
+}
+
+.p:hover {
+  box-shadow: 1px 5px 4px steelblue;
+}
+
+/*?__________Tab Background Images__________*/
+/**CellPhones*/
+.s20 {
+  background-image: url(images/s20Tab.jpg);
+  background-repeat: no-repeat;
+}
+.s20Plus {
+  background-image: url(images/s20PlusTab.jpg);
+  background-repeat: no-repeat;
+}
+.s20Ultra {
+  background-image: url(images/s20UltraTab.jpg);
+  background-repeat: no-repeat;
+}
+.onePlus8 {
+  background-image: url(images/onePlus8Tab.jpg);
+  background-repeat: no-repeat;
+}
+.onePlus8Pro {
+  background-image: url(images/onePlus8ProTab.jpg);
+  background-repeat: no-repeat;
+}
+.onePlus7Pro {
+  background-image: url(images/onePlus7ProTab.jpg);
+  background-repeat: no-repeat;
+}
+.onePlus7T {
+  background-image: url(images/onePlus7TTab.jpg);
+  background-repeat: no-repeat;
+}
+.onePlus7TPro {
+  background-image: url(images/onePlus7TProTab.jpg);
+  background-repeat: no-repeat;
+}
+
+/**HeadPhones*/
+.m50x {
+  background-image: url(images/m50xTab.jpg);
+  background-repeat: no-repeat;
+}
+.m40x {
+  background-image: url(images/m40xTab.jpg);
+  background-repeat: no-repeat;
+}
+.m30x {
+  background-image: url(images/m30xTab.jpg);
+  background-repeat: no-repeat;
+}
+.m20x {
+  background-image: url(images/m20xTab.jpg);
+  background-repeat: no-repeat;
+}
+/**Desktops*/
+.basicPc {
+  background-image: url(images/obeliskTab.jpg);
+  background-repeat: no-repeat;
+}
+.casualGamerPc {
+  background-image: url(images/obeliskTab.jpg);
+  background-repeat: no-repeat;
+}
+.campaignHeroPc {
+  background-image: url(images/obeliskTab.jpg);
+  background-repeat: no-repeat;
+}
+.eSportProPc {
+  background-image: url(images/obeliskeSportsTab.jpg);
+  background-repeat: no-repeat;
+}
+
+/**Speakers*/
+.googleNestMini {
+  background-image: url(images/googlenestminiTab.jpg);
+  background-repeat: no-repeat;
+}
+.googleHome {
+  background-image: url(images/googlehomeTab.jpg);
+  background-repeat: no-repeat;
+}
+.amazonEchoDot {
+  background-image: url(images/amazonEchodotTab.jpg);
+  background-repeat: no-repeat;
+}
+.amazonEcho {
+  background-image: url(images/amazonEchodotTab.jpg);
+  background-repeat: no-repeat;
+}
+
+/**Games*/
+.fortnite {
+  background-image: url(images/fortniteTab.jpg);
+  background-repeat: no-repeat;
+}
+.minecraft {
+  background-image: url(images/minecraftTab.jpg);
+  background-repeat: no-repeat;
+}
+.zelda {
+  background-image: url(images/zeldaTab.jpg);
+  background-repeat: no-repeat;
+}
+.apex {
+  background-image: url(images/apexTab.jpg);
+  background-repeat: no-repeat;
+}
+
+/**Laptops*/
+.omenLaptop {
+  background-image: url(images/omenLaptopTab.jpg);
+  background-repeat: no-repeat;
+}
+.macbook {
+  background-image: url(images/macbookTab.jpg);
+  background-repeat: no-repeat;
+}
+.dellXPS13 {
+  background-image: url(images/dellxps13Tab.jpg);
+  background-repeat: no-repeat;
+}
+.acerSwift7 {
+  background-image: url(images/acerSwift7Tab.jpg);
+  background-repeat: no-repeat;
+}
+
+/**Game Consoles*/
+.nintendoSwitch {
+  background-image: url(images/nintendoSwitchTab.jpg);
+  background-repeat: no-repeat;
+}
+.pS4 {
+  background-image: url(images/ps4Tab.jpg);
+  background-repeat: no-repeat;
+}
+.pS4Pro {
+  background-image: url(images/ps4ProTab.jpg);
+  background-repeat: no-repeat;
+}
+.xBoxOne {
+  background-image: url(images/xBoxOneTab.jpg);
+  background-repeat: no-repeat;
+}
+
+/*?Info Section Styles*/
+.pInfo {
+  grid-column: 1 / 5;
+  /*!Change to none to hide product information*/
+  display: none;
+}
+
+.pImg {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/*?Product Description Styles*/
+.infoContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 20%;
+  grid-template-rows: 1fr auto;
+}
+
+.pName {
+  grid-column: 1 / 3;
+  padding: 10px;
+  border-bottom: 3px solid skyblue;
+  border-left: 3px solid skyblue;
+}
+
+.pDes {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+  padding: 10px;
+  border-left: 3px solid skyblue;
+}
+
+.pDes ul {
+  margin: 10px 0px 10px 30px;
+}
+
+.price {
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+  text-align: center;
+  justify-items: stretch;
+  align-items: stretch;
+  border: 3px solid skyblue;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.regPrice {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.salePrice {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: red;
+  /*!Display the discount*/
+  display: none;
+}
+
+/*?Button Styles*/
+.addCart {
+  background-color: skyblue;
+  color: white;
+  border: none;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 20px;
+  height: 50px;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+
+.addCart:hover {
+  background-color: steelblue;
+}
+
+/*?Product Page Styles*/
+/*?Body Styling*/
+.c_grid {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  width: 60%;
+  margin: auto;
+}
+
+/*?Item Syling*/
+.item {
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  grid-template-rows: 1fr 1fr;
+  height: 200px;
+}
+
+.Image {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  border-radius: 5px;
+}
+
+.Name {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.Des {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.remove {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.quantity {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  margin: auto;
+}
+
+.remove {
+  background-color: skyblue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.remove:hover {
+  background-color: lightcoral;
+}
+
+.emptyCart{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.emptyCart h1 {
+border-bottom: 5px solid skyblue;
+}
+
+.emptyCart a {
+  text-decoration: none;
+  margin: 100px;
+}
+
+
+/*?Pricing Sections*/
+.pricingContainer {
+  border: 5px solid skyblue;
+  border-radius: 20px;
+  margin-top: 10px;
+  grid-column: 2 / 3;
+}
+
+.numOfItems,
+.subtotal,
+.salesTax,
+.shipping {
+  padding-left: 15px;
+  text-transform: capitalize;
+  padding-top: 10px;
+  font-size: 120%;
+}
+
+.total {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 150%;
+  margin-top: 15px;
+  font-weight: bold;
+  border-bottom: 5px solid skyblue;
+  padding-bottom: 15px;
+}
+
+/*Checkout Button*/
+
+.checkOutButton {
+  background-color: skyblue;
+  color: white;
+  border: none;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 50px;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 30px;
+}
+
+.checkOutButton:hover {
+  background-color: steelblue;
+}
+
+/* back to top button*/
+.TopBttn{font-size: 50px;
+  padding-top: 90px;
+  width: 1px;
+  height: 1px;
+  text-align: center;
+  margin: auto;
+  }
+  
+  .TopBttn:hover{
+  color: steelblue;
+  }
+
+/*?Footer*/
+footer 
+{
+  text-align: center;
+  background-color: skyblue;
+  padding: 5px;
+  color: white;
+  font-style: italic;
+  font-size: 0.8em;
+  text-transform: capitalize;
+  overflow: hidden;
+  clear: both;
+  margin-top: 300px;
+}
+
+.copy 
+{
+  float: right;
+  padding-right: 20px;
+}

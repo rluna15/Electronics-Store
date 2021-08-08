@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description"
+		content="Timely Tech; a great place to buy high quality electronics for cheap." />
+	<link rel="stylesheet" href="Home.css" />
+	<title>Timely Tech | Home</title>
+</head>
+
+<body>
+	<header id="h-img">
+		<ul><a class="cart" href="cart.html"></a></ul>
+		<div class="container">
+			<h1 >
+				Timely Tech
+			</h1>
+			<p class="p-h">
+				Your one stop shop for all things tech!
+			</p>
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li><a class="active" href="home.html">Home</a></li>
+ 			<li><a class="active" href="products.html">Products</a></li>
+			<li><a class="active" href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<main>
+		<div class ="content">
+		<h2 style="font-weight: 450; border-bottom: solid 5px black; width:60%; 
+		padding-left: 3em; padding-right: 3em; text-align: center; margin: auto; 
+		padding-top: 20px; ">
+			Today's Sale is on <br> SmartPhones
+		</h2>
+		<div class = "itemSale-picture">
+		<p>
+			<img src="images/IphonePic.jpg" alt= "Picture of SmartPhone" >	
+		</p>
+		</div>
+		</div>
+
+		<div class = "newItemsHome">
+			<div class = "newProductHomeProdMod"> 
+				<div class= "ProductHomeText">
+				Get these while supplies Last!
+				</div>
+				<div class="grid">
+					<!--!Product Heading!-->
+					<h1 class="title"></h1>
+					<!--Product Tab-->
+					<div class="p-prodMod1" id="product" 
+					onclick="window.location.href='products.html#SmartPhones12'"
+					title=" Click to view all products">
+						<div class="desBlock">
+							<div class="imageSection"></div>
+							<h2 class="productName">SmartPhones</h2>
+							<p class="productDes">Galaxy S20, S20+, S20 Ultra, OnePlus: 8 and 7</p>
+						</div>
+					</div>
+					<div class="p-prodMod2" id="product"
+					onclick="window.location.href='products.html#Headphones12'"
+					title=" Click to view all products">
+						<div class="desBlock">
+							<div class="imageSection"></div>
+							<h2 class="productName">Headphones</h2>
+							<p class="productDes">Audio Technica ATH: M50x, M40x, M30x, M20x </p>
+						</div>
+					</div>
+					<div class="p-prodMod3" id="product"
+					onclick="window.location.href='products.html#Desktops12'" 
+					title=" Click to view all products">
+						<div class="desBlock">
+							<div class="imageSection"></div>
+							<h2 class="productName">Desktops</h2>
+							<p class="productDes">Omen Obelisk: Basic, Casual, Hero, Pro   </p>
+						</div>
+					</div>
+					<div class="p-prodMod4" id="product"
+					onclick="window.location.href='products.html#Speakers12'" 
+					title=" Click to view all products">
+						<div class="desBlock">
+							<div class="imageSection"></div>
+							<h2 class="productName">Speakers</h2>
+							<p class="productDes">Google Home Mini, GoogleHome, Amazon Dot, Amazon Echo</p>
+						</div>
+					</div>
+					<div class="p-prodMod5" id="product"
+					onclick="window.location.href='products.html#Videogames12'" 
+					title=" Click to view all products">
+						<div class="desBlock">
+							<div class="imageSection"></div>
+							<h2 class="productName">Video Games</h2>
+							<p class="productDes">Fortnite, Minecraft, Breath of the Wild, Apex Legends</p>
+						</div>
+					</div>
+					<div class="p-prodMod6" id="product"
+					onclick="window.location.href='products.html#Laptops12'" 
+					title=" Click to view all products">
+						<div class="desBlock">
+							<div class="imageSection"></div>
+							<h2 class="productName">Laptops</h2>
+							<p class="productDes">HP Omen, MacBook Pro, Dell XPS, Acer Swift </p>
+						</div>
+					</div>
+					<div class="p-prodMod7" id="product"
+					onclick="window.location.href='products.html#GameConsoles12'" 
+					title=" Click to view all products">
+						<div class="desBlock">
+							<div class="imageSection"></div>
+							<h2 class="productName">Gaming Consoles</h2>
+							<p class="productDes">Nintendo Switch, PS4, PS4 Pro and Xbox One S</p>
+						</div>
+					</div>
+				</div>
+		</div>
+
+
+		<div class = "TableText">
+		See the table below to see when your favorite products go on sale<br>
+		Click on the day of week you would like to see the sale products for
+
+		</div>
+
+		<div class = "itemSaleTable">
+			
+		<table style= "margin: auto;   border-spacing: 1em;
+		">
+		<tr>
+			<th>Day</th>
+			<th>Item</th>
+		</tr>
+		<tr>
+			<td onclick="changeDateSunday()" style="font-weight: 450;">Sunday</td>
+			<td>Smart Phones</td>
+		</tr>
+		<tr>
+			<td onclick="changeDateMonday()" style="font-weight: 450;">Monday</td>
+			<td>Head Phones</td>
+		</tr>
+		<tr>
+			<td onclick="changeDateTuesday()" style="font-weight: 450;">Tuesday</td>
+			<td>Desktops</td>
+		</tr>
+		<tr>
+			<td onclick="changeDateWednesday()" style="font-weight: 450;">Wednesday</td>
+			<td>Speakers</td>
+		</tr>
+		<tr>
+			<td onclick="changeDateThursday()" style="font-weight: 450;">Thursday</td>
+			<td>Video Games</td>
+		</tr>
+		<tr>
+			<td onclick="changeDateFriday()" style="font-weight: 450;">Friday</td>
+			<td>Laptops</td>
+		</tr>
+		<tr>
+			<td onclick="changeDateSaturday()" style="font-weight: 450;">Saturday</td>
+			<td>Game Consoles</td>
+		</tr>
+		</table>
+		</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="copy">
+			copyright &copy; Timely Tech
+		</div>
+		<div class="imglink">
+			
+		</div>
+	</footer>
+	<script src="script.js"></script>
+	
+</body>
+
+</html>

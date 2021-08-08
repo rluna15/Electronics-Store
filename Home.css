@@ -1,0 +1,407 @@
+
+
+
+
+
+
+
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------*/
+/* Body */
+
+
+/* Header */
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: auto;
+}
+
+header {
+  min-height: 400px;
+  line-height: 2em;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Header Images */
+
+#h-img {
+  background-image: url(images/homePic.jpg);
+  background-position: center center;
+  overflow: hidden;
+  background-size: cover;
+}
+
+/* Top header Text */
+
+.container {
+  line-height: 1.5em;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+  -webkit-text-stroke: 2.5px black;
+  font-weight: 600;
+  font-size: 60px;
+  width: 90%;
+  margin: auto;
+  height: 400px;
+}
+
+.p-h {
+  text-align: center;
+  line-height: 1.2em;
+  color: white;
+  -webkit-text-stroke: 2px black;
+  padding-top: 10px;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+  padding-top: 150px;
+  text-transform: capitalize;
+  color: white;
+  -webkit-text-stroke: 3px black;
+  font-size: 90px;
+  font-weight: 470;
+}
+
+/* Header Cart Link */ 
+
+.cart {
+  background-image: url(images/cart1.png);
+  background-repeat:no-repeat ;
+  height: 75px;
+  width: 80px;
+  display: block;
+  float: right;
+  margin-right: 1em;
+  margin-top: 1em;
+  border: 1.5px solid black;
+  background-color: skyblue;
+}
+
+.cart:hover {
+  background-color: steelblue ;
+  height: 78px;
+  widows: 83px;
+}
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------*/
+/* Nav */
+
+
+/* Nav Bar */
+
+nav {
+  background-color: rgb(135, 206, 235);
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 15px;
+  margin: auto;
+  text-align: center;
+  height:auto;
+  width: auto;
+}
+
+nav li {
+  display: inline;
+
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 15px 15px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 6px;
+  height: auto;
+  width: auto;
+  font-weight: 450;
+  
+}
+
+nav a:hover {
+  background-color: steelblue;
+}
+
+.active {
+  color: white;
+}
+
+#ref-link a:hover {
+  text-decoration: underline;
+}
+
+#ref-link a {
+  text-decoration: none;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------*/
+/* Main */
+
+
+/* sale image and text */
+
+.content {
+  text-align:center ;
+  font-size: 50px;
+  padding-top: 50px;
+}
+
+.itemSale-picture{
+  padding-top: 20px;
+  font-size: 40px;
+
+}
+
+/* New products Home Page blockquote */
+
+.newItemHome {
+
+}
+
+.newProductHomeProdMod
+{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.ProductHomeText{
+  font-size: 80px;
+  text-align: center;
+  font-weight: 350;
+  padding-top: 1em;
+}
+
+/* Product Mod */
+
+/*?Grid Element Layout*/
+.grid {
+  width: 55%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-gap: 2em;
+}
+
+.title {
+  grid-column: 1 / 5;
+  text-align: center;
+  padding: 0px 0px 20px 0px;
+  border-bottom: 5px solid darkslategray;
+  font-size: 3em;
+  overflow: visible;
+}
+
+/*?Thumbnail Text Styles*/
+
+.desBlock {
+  display: grid;
+  grid-template-rows: 175px 1fr 65px 1fr;
+
+}
+
+.desBlock h2 
+{
+  font-size: 100% ;
+}
+
+.productName {
+  padding: 0px 10px;
+  font-weight: 450px;
+}
+
+.productDes {
+  padding: 0px 10px;
+  font-weight: 300;
+}
+
+.moreInfo {
+  text-align: center;
+  color: white;
+}
+
+.moreInfo:hover {
+  color: darkslategray;
+}
+
+.p-prodMod1 {
+  background-image: url(images/s20UltraTab.jpg);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 1px 4px 3px skyblue;
+}
+.p-prodMod2 {
+  background-image: url(images/m50xTab.jpg);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 1px 4px 3px skyblue;
+}
+.p-prodMod3 {
+  background-image: url(images/obeliskeSportsTab.jpg);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 1px 4px 3px skyblue;
+}
+.p-prodMod4 {
+  background-image: url(images/googlehomeTab.jpg);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 1px 4px 3px skyblue;
+}
+.p-prodMod5 {
+  background-image: url(images/zeldaTab.jpg);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 1px 4px 3px skyblue;
+}
+.p-prodMod6 {
+  background-image: url(images/macbookTab.jpg);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 1px 4px 3px skyblue;
+}
+.p-prodMod7 {
+  background-image: url(images/ps4ProTab.jpg);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 1px 4px 3px skyblue;
+}
+
+
+.p-prodMod1:hover {
+  box-shadow: 1px 5px 4px steelblue;
+}
+.p-prodMod2:hover {
+  box-shadow: 1px 5px 4px steelblue;
+}
+.p-prodMod3:hover {
+  box-shadow: 1px 5px 4px steelblue;
+}
+.p-prodMod4:hover {
+  box-shadow: 1px 5px 4px steelblue;
+}
+.p-prodMod5:hover {
+  box-shadow: 1px 5px 4px steelblue;
+}
+.p-prodMod6:hover {
+  box-shadow: 1px 5px 4px steelblue;
+}
+.p-prodMod7:hover {
+  box-shadow: 1px 5px 4px steelblue;
+}
+/* Days of week sale table */
+
+.TableText {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 5em;
+  border-bottom: solid 5px black;
+  border-bottom-width: 5px;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 20px ;
+  font-weight: 330;
+}
+.itemSale-table, td { 
+border-collapse:collapse;
+border: 3px solid skyblue;
+text-align: center;
+}
+
+
+td:hover {
+  box-shadow: 1px 5px 4px steelblue;
+}
+
+th
+{
+  color: black;
+  font-size: 70px;
+  padding-top: em;
+  font-weight: 450;
+}
+td {
+  font-size: 50px;
+  font-weight: 300;
+  
+}
+
+
+/* Footer */
+
+footer {
+  text-align: center;
+  background-color: skyblue;
+  padding: 5px;
+  color: white;
+  font-style: italic;
+  font-size: 0.8em;
+  text-transform: capitalize;
+  overflow: hidden;
+  clear: both;
+  margin-top: 300px;
+}
+
+.imglink {
+  float: left;
+  padding-left: 20px;
+}
+
+.imglink a {
+  text-decoration: none;
+  color: white;
+}
+
+.imglink a:hover {
+  color: darkslategray;
+}
+
+.copy {
+  float: right;
+  padding-right: 20px;
+}
+

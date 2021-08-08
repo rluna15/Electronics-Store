@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="products.css">
+    <title>Cart</title>
+</head>
+
+<body>
+    <header class="h-img-cart">
+        <div class="headerContainer-cart">
+            <h1>
+                Cart
+            </h1>
+            <p>
+                Thanks For Hanging out with us today!
+            </p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a class="active" href="home.html">Home</a></li>
+ 			<li><a class="active" href="products.html">Products</a></li>
+			<li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="c_grid">
+            <div class="itemContainer">
+                <div class="item">
+                    <img class="Img" src="" alt="">
+                    <p class="Name">Product Name</p>
+                    <p class="Des">Product Description</p>
+                    <p class="quantity">#</p>
+                    <button class="remove">Remove</button>
+                </div>
+            </div>
+            <div class="pricingContainer">
+                <p class="numOfItems">number of items:</p>
+                <p class="subtotal">subtotal:</p>
+                <p class="salesTax">sales tax:</p>
+                <p class="shipping">shipping:</p>
+                <p class="total">total:</p>
+                <div class="checkOut">
+                    <button type="" onclick="window.location.href='checkedOut.html'" class="checkOutButton">CheckOut</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="cart.js"></script>
+</body>
+<footer>
+    <div class="copy">
+        copyright &copy; Timely Tech
+    </div>
+</footer>
+
+</html>
