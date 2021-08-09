@@ -1,4 +1,4 @@
-# Electronics-Store
+# Timely Tech Store
 This was is an only shop website where certain products are on sale based on the day of the week. This was a group project for a project development course. Unfortunelty we ran out of time and we did not get to finish. Some of the code is not is not the best and I wasn't really happy how it turned out since at the time I was learning JavaScript which made it much worse.
 
 ## Currently working on a similar page that is a better version than this one. 
